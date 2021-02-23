@@ -22,12 +22,12 @@ export default function CartTotals({ value }) {
               </h5>
 
               <h5>
-                <span className="text-title">subtotal:</span>
+                <span className="text-title">Tax:</span>
                 <strong>${cartTax}</strong>
               </h5>
 
               <h5>
-                <span className="text-title">subtotal:</span>
+                <span className="text-title">Total:</span>
                 <strong>${cartTotal}</strong>
               </h5>
             </Link>

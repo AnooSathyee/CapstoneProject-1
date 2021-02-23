@@ -1,14 +1,15 @@
 :root {
-  --mainBlue: #2a2a72;
+  --mainBlue: #6464c8;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
-  --mainDark: #232528;
+  --mainDark: #8c4499;
   --mainYellow: #ffa400;
+  --mainPink: #ffcdd2;
 }
 
 body {
   font-family: "Oswald", sans-serif !important;
-  background: var(--mainWhite) !important;
+  background: var(--mainPink) !important;
   color: var(--mainDark) !important;
 }
 
