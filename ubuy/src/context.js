@@ -12,6 +12,9 @@ class ProductProvider extends Component {
     cart: [],
     modalOpen: false,
     modalProduct: detailProduct,
+    cartSubtotal: 0,
+    cartTax: 0,
+    cartTotal: 0,
   };
 
   componentDidMount() {
@@ -69,6 +72,15 @@ class ProductProvider extends Component {
       return { modalOpen: false };
     });
   };
+
+  increment = (id) => {
+    console.log("this is increment method");
+  };
+
+  decrement = (id) => {
+    console.log("this is decrement method");
+  };
+
   render() {
     return (
       <ProductContext.Provider
