@@ -28,7 +28,7 @@ body {
 
 .btn-black {
   background: transparent;
-  text-transfor: capitalize;
+  text-transform: capitalize;
   font-size: 0.8rem !important;
   color: var(--mainDark);
   border-radius: 0 !important;
